@@ -8,4 +8,6 @@ package com.hao.demogit.pojo;
 
 
 public class User {
+
+
 }
