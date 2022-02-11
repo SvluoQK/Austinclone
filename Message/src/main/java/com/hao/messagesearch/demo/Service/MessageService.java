@@ -1,7 +1,7 @@
-package com.learnemoji.demo.Service;
+package com.hao.messagesearch.demo.Service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.learnemoji.demo.Model.Entity.Emoji;
+import com.hao.messagesearch.demo.Model.Entity.message;
 import org.springframework.stereotype.Service;
 
 /**
@@ -11,7 +11,6 @@ import org.springframework.stereotype.Service;
  */
 
 @Service
-public interface EmojiService extends IService<Emoji> {
-
+public interface MessageService extends IService<message> {
 
 }

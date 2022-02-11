@@ -8,7 +8,7 @@ import lombok.Data;
  * @description
  */
 
-@Data
+
 public enum ErrorCodeEnum  {
     /**
      * 用户错误
