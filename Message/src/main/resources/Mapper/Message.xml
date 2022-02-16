@@ -4,7 +4,7 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.hao.messagesearch.demo.Mapper.MessageMapper">
 
-    <select id="selectPageVo" resultType="com.baomidou.cloud.entity.UserVo">
+    <select id="selectPageVo" resultType="com.hao.messagesearch.demo.Model.Entity.message">
         SELECT ID,message FROM message.message WHERE ID=#{ID}
     </select>
 
