@@ -55,10 +55,12 @@ public class OkHttpConfiguration {
                 .build();
     }
 
+    @Bean
     public ConnectionPool pool() {
         return new ConnectionPool(maxIdleConnections, keepAliveDuration, TimeUnit.SECONDS);
     }
 
+    @Bean
     public X509TrustManager x509TrustManager() {
         return new X509TrustManager() {
             @Override
@@ -76,6 +78,7 @@ public class OkHttpConfiguration {
         };
     }
 
+    @Bean
     public SSLSocketFactory sslSocketFactory() {
          try {
             // 信任任何链接

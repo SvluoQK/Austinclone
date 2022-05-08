@@ -15,6 +15,8 @@
         <module>austinclone-api</module>
         <module>austincloecommon</module>
         <module>support</module>
+        <module>Web</module>
+        <module>clone-service-api</module>
     </modules>
 
 
